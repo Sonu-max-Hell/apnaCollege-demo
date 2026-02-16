@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="self.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home" class="logo">Explore Nature</a>
+        <input type="checkbox" id="menu-toggle">
+        <div class="menu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#blog">Blog</a>
+          <a href="#articles">Articles</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <label for="menu-toggle" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </nav>
+
+      <section id="home" class="text">
+        <h1>Explore the Beauty of <span>Nature</span></h1>
+        <p>
+          Discover breathtaking landscapes, diverse wildlife, and serene
+          environments that inspire and rejuvenate the soul.
+        </p>
+        <a href="#gallery" class="btn">View Gallery</a>
+      </section>
+    </header>
+
+    <section id="about" class="about">
+      <h1>About Us</h1>
+      <div class="cards">
+        <div class="card">
+          <img src="about.avif" alt="" height="200px" width="250px">
+          <p>"We are a group of nature lovers who believe that nature is not just a place to visit, but a home to protect. Our mission is to explore, preserve, and share the beauty of forests, mountains, rivers, and wildlife with the world."</p>
+          <button>Learn More</button>
+        </div>
+        <div class="card">
+          <img src="about 2.avif" alt="" height="200px" width="250px">
+          <p>"We are passionate about nature and dedicated to protecting the environment while sharing its beauty through stories, photography, and eco-friendly initiatives."</p>
+          <button>Learn More</button>
+        </div>
+        <div class="card">
+          <img src="about 3.avif" alt="" height="200px" width="250px">
+          <p>"We are committed to raising awareness about environmental conservation and promoting sustainable practices that help preserve our planet for future generations."</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+  <h2>Our Nature Gallery</h2>
+  <p>Discover the beauty of nature captured in stunning moments.</p>
+
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="forest.avif" alt="Forest">
+      <div class="overlay">Green Forest</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="mountain 2.avif" alt="Mountain">
+      <div class="overlay">Mountain View</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="river.avif" alt="River">
+      <div class="overlay">Flowing River</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="wildlife.avif" alt="Wildlife">
+      <div class="overlay">Wildlife Nature</div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <span class="close">&times;</span>
+  <img id="lightbox-img">
+</div>
+
+<section id="blog" class="blog">
+  <h2>Nature Stories & Tips</h2>
+  <p>Read inspiring stories and eco-friendly tips from the heart of nature.</p>
+
+  <div class="blog-container">
+
+    <div class="blog-card">
+      <img src="nautre blg.avif" alt="Nature Blog">
+      <div class="blog-content">
+        <span class="category">Environment</span>
+        <h3>Why Nature Is Important for Our Life</h3>
+        <p>Nature gives us clean air, water, peace, and balance. Learn why protecting it is our responsibility.</p>
+        <a href="#" class="read-btn">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <img src="forst blg.avif" alt="Forest Blog">
+      <div class="blog-content">
+        <span class="category">Forest</span>
+        <h3>Beauty of Forests and Wildlife</h3>
+        <p>Forests are home to millions of species and play a vital role in maintaining our ecosystem.</p>
+        <a href="#" class="read-btn">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <img src="eco blg.avif" alt="Eco Tips">
+      <div class="blog-content">
+        <span class="category">Tips</span>
+        <h3>10 Simple Ways to Protect Nature</h3>
+        <p>Small daily actions like saving water and planting trees can make a big difference.</p>
+        <a href="#" class="read-btn">Read More</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="articles" class="article">
+      <div class="article-header">
+    <img src="nauture.avif" alt="Nature Image">
+    <h1>Why Nature Is Important for Our Life</h1>
+    <p class="meta">By Sahil • February 2026</p>
+  </div>
+
+  <div class="article-content">
+
+    <p>
+      Nature is an essential part of human life. From the air we breathe to the
+      food we eat, everything comes from nature. Living close to nature brings
+      peace, balance, and happiness to our lives.
+    </p>
+
+    <h2>🌱 Nature Gives Us Life</h2>
+    <p>
+      Trees provide oxygen, rivers give us water, and soil helps grow food.
+      Without nature, survival would not be possible.
+    </p>
+
+    <img src="forest.avif" alt="Forest">
+
+    <h2>🌍 Nature Improves Mental Health</h2>
+    <p>
+      Spending time in nature reduces stress and improves mental health.
+      Green surroundings make us feel calm and refreshed.
+    </p>
+
+    <ul>
+      <li>Reduces stress and anxiety</li>
+      <li>Improves focus and creativity</li>
+      <li>Brings inner peace</li>
+    </ul>
+
+    <h2>🐦 Nature Protects Wildlife</h2>
+    <p>
+      Forests, oceans, and rivers are home to millions of species.
+      Protecting nature also means protecting wildlife.
+    </p>
+
+    <blockquote>
+      “The Earth does not belong to us; we belong to the Earth.”
+    </blockquote>
+
+    <h2>🌿 Conclusion</h2>
+    <p>
+      Nature is our greatest gift. By protecting it today, we ensure a better
+      future for the next generations. Small steps can make a big difference.
+    </p>
+
+    <a href="#" class="cta-btn">Join Our Mission</a>
+
+  </div>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Nature Services</h2>
+  <p>We work together to protect, preserve, and promote nature.</p>
+
+  <div class="services-container">
+
+    <div class="service-card">
+      <div class="icon">🌱</div>
+      <h3>Tree Plantation</h3>
+      <p>We organize tree plantation drives to create a greener and healthier environment.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">♻</div>
+      <h3>Environmental Awareness</h3>
+      <p>Spreading awareness about eco-friendly habits and sustainable living.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">📸</div>
+      <h3>Nature Photography</h3>
+      <p>Capturing the beauty of forests, wildlife, and landscapes.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">🌍</div>
+      <h3>Eco Tours</h3>
+      <p>Guided nature tours to help people experience nature responsibly.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">💧</div>
+      <h3>Clean-up Drives</h3>
+      <p>Community clean-up drives to protect rivers and natural areas.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">🐦</div>
+      <h3>Wildlife Protection</h3>
+      <p>Supporting wildlife conservation and protecting natural habitats.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>Have questions or want to join our nature mission? Feel free to reach out to us.</p>
+
+  <div class="contact-container">
+
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h3>Contact Info</h3>
+      <p>📧 Email: info@naturesite.com</p>
+      <p>📞 Phone: +91 XXXXX XXXXX</p>
+      <p>📍 Location: India</p>
+      <div class="socials">
+        <a href="#">Instagram</a> | 
+        <a href="#">Facebook</a> | 
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  </body>
+</html>
